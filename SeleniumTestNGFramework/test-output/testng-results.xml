@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10902" started-at="2016-12-17T06:58:09Z" finished-at="2016-12-17T06:58:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10902" started-at="2016-12-17T06:58:09Z" finished-at="2016-12-17T06:58:19Z">
+      <class name="in.prolearn.Newtours1.testrunner.NewToursRunner">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:in.prolearn.Newtours1.testrunner.NewToursRunner@343f4d3d]" name="init" is-config="true" duration-ms="9555" started-at="2016-12-17T12:28:09Z" finished-at="2016-12-17T12:28:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="VerifyHomePage(java.lang.String, java.lang.String)[pri:0, instance:in.prolearn.Newtours1.testrunner.NewToursRunner@343f4d3d]" name="VerifyHomePage" duration-ms="316" started-at="2016-12-17T12:28:19Z" data-provider="NewTours" finished-at="2016-12-17T12:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Welcome: Mercury Tours]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHomePage -->
+      </class> <!-- in.prolearn.Newtours1.testrunner.NewToursRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

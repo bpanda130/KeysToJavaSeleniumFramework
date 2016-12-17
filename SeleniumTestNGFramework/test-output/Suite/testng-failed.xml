@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="appurl" value="http://newtours.demoaut.com/"/>
+  <parameter name="bn" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="appurl" value="http://newtours.demoaut.com/"/>
+    <parameter name="bn" value="chrome"/>
+    <classes>
+      <class name="in.prolearn.Newtours1.testrunner.NewToursRunner">
+        <methods>
+          <include name="init"/>
+          <include name="VerifyHomePage"/>
+        </methods>
+      </class> <!-- in.prolearn.Newtours1.testrunner.NewToursRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

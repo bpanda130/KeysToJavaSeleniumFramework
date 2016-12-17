@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<!-- Listner class linkage in testng.xml file -->
+<listeners>
+	<listener class-name="in.prolearn.utility.NewToursListners"></listener>
+</listeners>
+
+  <test name="Test">
+  <parameter name="bn" value="chrome"></parameter>
+  <parameter name="appurl" value="http://newtours.demoaut.com/"></parameter>
+    <classes>
+      <class name="in.prolearn.Newtours1.testrunner.NewToursRunner">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
